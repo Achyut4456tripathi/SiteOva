@@ -4,8 +4,9 @@
         box-sizing: border-box;
         padding: 0px;
         margin: 0px;
+        align-items: center;
         text-decoration: none;
-        background-color: rgba(214, 123, 244, 0.455);
+
         list-style: none;
 }
 ::placeholder{
@@ -13,16 +14,44 @@
 }
 label{
   background-color: rgba(255, 255, 255, 0.0001);
-  text-align: left;
+  margin-right: 59%;
+}
+.name{
+  background-color: rgba(255, 255, 255, 0.0001);
+    margin-right: 80%;
+
+}
+.sitename{
+  background-color: rgba(255, 255, 255, 0.0001);
+  margin-right: 71%;
+}
+.purpose{
+  background-color: rgba(255, 255, 255, 0.0001);
+  margin-right: 64%;
 }
 h1{
       background-color: rgba(255, 255, 255, 0.0001);
 }
+a{
+   background-color: rgba(170, 13, 209,0.001);
+}
+.button{
+    height: fit-content;
+    align-items: center;
+    margin-left:15%;
+    color: #ffffff;
+    padding: 5px;
+    background-color: rgba(170, 13, 209,0.111);
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255,0.3);
+    font-size: 25px;
+    width: fit-content;
+}
 button{
     height: fit-content;
     align-items: center;
-    margin-left: 28%;
-    color: #fbfbfb85;
+    margin-left:3%;
+    color: #ffffff;
     padding: 5px;
     background-color: rgba(170, 13, 209,0.111);
     border-radius: 5px;
@@ -57,7 +86,7 @@ textarea{
 }
 
     body{
-        background-image: url(images.jpeg);
+        background-color: blueviolet;
         background-size: cover;
         height: 100vh;
         display: flex;

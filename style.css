@@ -159,12 +159,15 @@ align-items: center;
    color: rgb(27, 19, 19);
    text-align: center;
 }
+.a{
+   background-color: rgba(170, 13, 209,0.001);
+}
 .build-btn{
   height:5vh;
   margin-top: 13vh;
   width: 366px;
   border-radius: 12px;
-    background-color: rgba(170, 13, 209,0.111);
+    background-color: rgba(170, 13, 209,0.001);
 
   font-size: 3vh;
 }
