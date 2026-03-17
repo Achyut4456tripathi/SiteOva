@@ -17,6 +17,56 @@
 
 
 
+    .button{
+        margin-top: 10vh;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 20px;
+        font-size: 25px;
+        padding-top: 20px;
+        border: none;
+        position: relative;
+        border-radius: 12px;
+        z-index: 0;
+    }
+    .button::after{
+      content: "";
+        z-index: -1;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: #333;
+        left: 0;
+        top: 0;
+        border-radius: 11px;
+    }
+  .button::before{
+        content: "";
+        background:linear-gradient(
+            45deg,
+           #FF6600,#FD0059,#000DFF ,#FF00BF,
+           #FF0040,#4C00FF,#00FBFF,#FF0000,
+           green
+        );
+        position: absolute;
+        top: -2px;
+        left: -2px;
+        background-size: 600%;
+        z-index: -1;
+        width: calc(100% + 4px);
+        height: calc(100% + 4px);
+        filter: blur(8px);
+        animation: glowing 20s linear infinite;
+        transition: opacity 3s ease-in-out ;
+        border-radius: 10px;
+        opacity: 1;
+    }
+    @keyframes glowing{
+        0% {background-position: 0,0;}
+        50% {background-position: 400%,0;}
+        100% {background-position: 0,0;}
+    }
+
 
 
 
@@ -164,7 +214,7 @@ align-items: center;
 }
 .build-btn{
   height:5vh;
-  margin-top: 13vh;
+  margin-top: 10vh;
   width: 366px;
   border-radius: 12px;
     background-color: rgba(170, 13, 209,0.001);
@@ -172,7 +222,9 @@ align-items: center;
   font-size: 3vh;
 }
 #body-index{
-  background-image: url(images.jpeg);
+
+
+background-image: url(images.jpeg);
   background-size: cover;
 }
 .main-heading{
