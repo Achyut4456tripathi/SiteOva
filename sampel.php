@@ -5,7 +5,7 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 
-//Load Composer's autoloader (created by composer, not included with PHPMailer)
+//Load Composer's autoloader (created by composer, not included with PHPMailer f)
 require 'phpmailer\Exception.php';
 require 'phpmailer\PHPMailer.php';
 require 'phpmailer\SMTP.php';
